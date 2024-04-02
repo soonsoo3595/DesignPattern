@@ -18,3 +18,11 @@ namespace ObserverPattern
         void NotifyObservers();
     }
 }
+
+namespace StatePattern
+{
+    public interface IState
+    {
+        void Study();
+    }
+}
