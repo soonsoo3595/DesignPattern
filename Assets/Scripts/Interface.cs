@@ -26,3 +26,11 @@ namespace StatePattern
         void Study();
     }
 }
+
+namespace FlyweightPattern
+{
+    public interface IMonster
+    {
+        void Attack(int x, int y);
+    }
+}
